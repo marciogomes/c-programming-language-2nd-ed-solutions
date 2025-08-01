@@ -13,3 +13,5 @@
 .DS_Store   # macOS specific
 **/.DS_Store
 
+# Debugging files
+*.dSYM/    # macOS debug symbols
