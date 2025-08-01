@@ -1,0 +1,17 @@
+# Build artifacts to ignore
+*.out
+*.o
+
+# Logs and temporary files to ignore
+*.log
+*.tmp
+*.temp
+
+# IDE-specific files and directories
+.vscode/
+*.iml
+.DS_Store   # macOS specific
+**/.DS_Store
+
+# Debugging files
+*.dSYM/    # macOS debug symbols
