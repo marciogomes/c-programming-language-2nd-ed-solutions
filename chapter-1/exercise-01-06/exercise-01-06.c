@@ -10,7 +10,8 @@ main()
     int c;
 
     while(c = getchar() != EOF)
-        //putchar(c);   using putchar(c) won't display the integer value (0 or 1)
-        printf("at loop -> [%d]\n", c); // depending on your shell config, you may get one extra output for LF
+        /* using putchar(c) won't display the integer value (0 or 1) 
+            depending on your shell config, you may get one extra output for LF */
+        printf("at loop -> [%d]\n", c);
     printf("reached EOF -> [%d]\n", c);
 }
